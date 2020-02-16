@@ -4,17 +4,17 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 青柠学术
+title: 四十后学
 subtitle:
-description: 持续输出优质的科研技巧、效率工具。公众号：青柠学术。
-author: 青柠学术
+description: 四十后学。
+author: 四十后学
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:  https://iseex.github.io
+url:  https://mlinking.github.io
 baseurl:
 permalink: /:year-:month/:title/  #pretty
 
@@ -79,7 +79,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "青柠学术"
+keywords: "四十后学"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -218,12 +218,12 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/iseex
-  Scholar: https://www.researchgate.net/profile/Hongsheng_Xu2
-  Projects: https://iseex.github.io/research
-  Twitter: https://twitter.com/iseexuhs
-  简书: https://www.jianshu.com/u/5902bc489072
-  Weibo: https://weibo.com/iseexuhs
+  GitHub: https://github.com/mlinking
+  # Scholar: https://www.researchgate.net/profile/Hongsheng_Xu2
+  # Projects: https://iseex.github.io/research
+  # Twitter: https://twitter.com/iseexuhs
+  简书: https://www.jianshu.com/u/7fb684f58e38
+  # Weibo: https://weibo.com/iseexuhs
 
 
 
