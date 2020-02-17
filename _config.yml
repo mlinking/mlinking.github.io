@@ -123,7 +123,7 @@ menu:
   tags: /tags/
   books: /books/
   about: /about/
-  gifts: /gifts/
+  #gifts: /gifts/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -299,7 +299,7 @@ links_title: Links
 links_layout: inline  # recommended
 links:
   #asdfv1929: https://asdfv1929.github.io/
-  #shenzekun: http://shenzekun.cn
+  shenzekun: http://shenzekun.cn
   blanboom: https://blanboom.org
   #wingjay: http://wingjay.com/
 
