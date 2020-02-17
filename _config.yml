@@ -218,7 +218,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://mlinking.github.io/
+  GitHub: https://github.com/mlinking
   # Scholar: https://www.researchgate.net/profile/Hongsheng_Xu2
   # Projects: https://iseex.github.io/research
   # Twitter: https://twitter.com/iseexuhs
