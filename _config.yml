@@ -19,7 +19,7 @@ baseurl:
 permalink: /:year-:month/:title/  #pretty
 
 # Pagination
-paginate: 10
+paginate: 20
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 10
@@ -123,7 +123,7 @@ menu:
   tags: /tags/
   books: /books/
   about: /about/
-  gifts: /gifts/
+  #gifts: /gifts/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -298,10 +298,10 @@ links_title: Links
 #links_layout: block
 links_layout: inline  # recommended
 links:
-  asdfv1929: https://asdfv1929.github.io/
-  shenzekun: http://shenzekun.cn
+  #asdfv1929: https://asdfv1929.github.io/
+  #shenzekun: http://shenzekun.cn
   blanboom: https://blanboom.org
-  wingjay: http://wingjay.com/
+  #wingjay: http://wingjay.com/
 
 
 # ---------------------------------------------------------------
@@ -350,8 +350,8 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 # post-reward 打赏
-alipay: /assets/images/alipay.jpg #qr-code的地址
-wechatpay: /assets/images/wechatpay.jpg #qr-code地址
+alipay: https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payZFB.jpg #qr-code的地址
+wechatpay: https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX.png #qr-code地址
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
