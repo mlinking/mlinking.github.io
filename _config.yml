@@ -244,9 +244,7 @@ social_icons:
   Weibo: weibo
 
 
-# Sidebar Avatar
-# in directory: /assets/images/avatar.gif
-avatar:/assets/images/avatar2.gif
+
 
 
 # Table Of Contents in the Sidebar
@@ -282,6 +280,10 @@ sidebar:
   #display: hide
   #display: remove
 
+  # Sidebar Avatar
+  # in directory: /assets/images/avatar.gif
+  avatar: /assets/images/avatar2.gif\
+  
   # Sidebar offset from top menubar in pixels.
   offset: 12
   offset_float: 0
