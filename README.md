@@ -3,7 +3,7 @@
 
 # 个人博客
 
-![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX.png)
+<img src="https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX.png" alt ="微信打赏" style="zoom:50%;" />
 
 ## 内容
 
