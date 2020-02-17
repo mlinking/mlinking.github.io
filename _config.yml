@@ -298,10 +298,14 @@ links_title: Links
 #links_layout: block
 links_layout: inline  # recommended
 links:
-  asdfv1929: https://asdfv1929.github.io/
-  shenzekun: http://shenzekun.cn
+  #asdfv1929: https://asdfv1929.github.io/
+  #shenzekun: http://shenzekun.cn
   blanboom: https://blanboom.org
-  wingjay: http://wingjay.com/
+  #wingjay: http://wingjay.com/
+  shuge: https://new.shuge.org/
+  tianyancha: https://www.tianyancha.com/
+  cctv: http://tv.cctv.com/cctv9/?spm=C00367.PTdnYnoIyzbR.0.0
+  conflist: http://www.conferencelist.info/upcoming.html
 
 
 # ---------------------------------------------------------------
