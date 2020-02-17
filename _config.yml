@@ -1,13 +1,13 @@
-ï»¿# ---------------------------------------------------------------
+# ---------------------------------------------------------------
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
 # Site
-title: å–œæ¬¢åƒè‹¹æœçš„æ¢¨
+title: Ï²»¶³ÔÆ»¹ûµÄÀæ
 subtitle:
-description: å–œæ¬¢åƒè‹¹æœçš„æ¢¨ã€‚
-author: å–œæ¬¢åƒè‹¹æœçš„æ¢¨
+description: Ï²»¶³ÔÆ»¹ûµÄÀæ¡£
+author: Ï²»¶³ÔÆ»¹ûµÄÀæ
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -79,7 +79,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "å–œæ¬¢åƒè‹¹æœçš„æ¢¨"
+keywords: "Ï²»¶³ÔÆ»¹ûµÄÀæ"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -222,7 +222,7 @@ social:
   # Scholar: https://www.researchgate.net/profile/Hongsheng_Xu2
   # Projects: https://iseex.github.io/research
   # Twitter: https://twitter.com/iseexuhs
-  ç®€ä¹¦: https://www.jianshu.com/u/7fb684f58e38
+  ¼òÊé: https://www.jianshu.com/u/7fb684f58e38
   # Weibo: https://weibo.com/iseexuhs
 
 
@@ -240,13 +240,13 @@ social_icons:
   Twitter: twitter
   Scholar: graduation-cap
   Projects: suitcase
-  ç®€ä¹¦: heartbeat
+  ¼òÊé: heartbeat
   Weibo: weibo
 
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/avatar2.gif
 
 
 # Table Of Contents in the Sidebar
@@ -269,8 +269,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  #position: left
-  position: right
+  position: left
+  #position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -293,15 +293,15 @@ sidebar:
   scrollpercent: true
 
 
-# Blog rolls  å‹é“¾
+# Blog rolls  ÓÑÁ´
 links_title: Links
 #links_layout: block
 links_layout: inline  # recommended
 links:
-  asdfv1929: https://asdfv1929.github.io/
-  shenzekun: http://shenzekun.cn
+  #asdfv1929: https://asdfv1929.github.io/
+  #shenzekun: http://shenzekun.cn
   blanboom: https://blanboom.org
-  wingjay: http://wingjay.com/
+  #wingjay: http://wingjay.com/
 
 
 # ---------------------------------------------------------------
@@ -340,8 +340,8 @@ post_wordcount:
 # Wechat Subscriber
 wechat_subscriber:
   enabled: true
-  qcode: /assets/images/ISEEX-qrcode.jpg #/path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
-  description: <font style="font-size:12px">å…³æ³¨å…¬ä¼—å·ï¼Œè·å–æ›´å¤šå¸®åŠ©ï½</font> #ex. subscribe to my blog by scanning my public wechat account
+  qcode: https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX.png
+  description: <font style="font-size:12px">¹Ø×¢¹«ÖÚºÅ£¬»ñÈ¡¸ü¶à°ïÖú¡«</font> #ex. subscribe to my blog by scanning my public wechat account
 
 # Declare license on posts
 post_copyright:
@@ -349,9 +349,9 @@ post_copyright:
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
-# post-reward æ‰“èµ
-alipay: /assets/images/alipay.jpg #qr-codeçš„åœ°å€
-wechatpay: /assets/images/wechatpay.jpg #qr-codeåœ°å€
+# post-reward ´òÉÍ
+alipay: https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payZFB.jpg #qr-codeµÄµØÖ·
+wechatpay: https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX.png #qr-codeµØÖ·
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -391,7 +391,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-# s?åä¸ºid
+# s?ºóÎªid
 baidu_analytics: b0ecab2411ae3fdb11b239f4a68ade48
 
 # Duoshuo ShortName
@@ -424,11 +424,11 @@ baidu_analytics: b0ecab2411ae3fdb11b239f4a68ade48
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-# æ³¨æ„ï¼šå®‰è£…livereå¿…é¡»å…³é—­gitalkï¼Œä¸ç„¶ä¼šé…ç½®å‡ºé”™ã€‚
+# ×¢Òâ£º°²×°livere±ØĞë¹Ø±Õgitalk£¬²»È»»áÅäÖÃ³ö´í¡£
 # livere_uid: MTAyMC8zOTA1OS8xNTU4Ng==
 
 # Support for gitalk comments system.
-# æ³¨æ„ï¼šå®‰è£…gitalkå¿…é¡»å…³é—­livereï¼Œä¸ç„¶ä¼šé…ç½®å‡ºé”™ã€‚
+# ×¢Òâ£º°²×°gitalk±ØĞë¹Ø±Õlivere£¬²»È»»áÅäÖÃ³ö´í¡£
 gitalk:
   enable: false
   clientID: 9cc85294515eed2e31fe # 54730ddf7b9420460c03
@@ -450,14 +450,14 @@ wildfire:
   version: 0.5.6 
   # database config
   databaseProvider: firebase # or wilddog
-  firebase: # your firebase config goes here â†“
+  firebase: # your firebase config goes here ¡ı
     apiKey: AIzaSyCNqroS109rphqBeyOmDEY6FVnrowtPAPI
     authDomain: https://iseex-new-dbd88.firebaseio.com
     databaseURL: https://iseex-new-dbd88.firebaseio.com
     projectId: iseex-new-dbd88
     storageBucket: iseex-new-dbd88.appspot.com
     messagingSenderId: 619524497577
-  wilddog: # your wilddog config goes here â†“
+  wilddog: # your wilddog config goes here ¡ı
     siteId:
   # other configs
   theme: light # light or dark
@@ -569,7 +569,7 @@ leancloud_visitors:
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
-# ç›´æ¥ä½¿èƒ½å°±å¯ä»¥ä½¿ç”¨ï¼Œä¸éœ€è¦ç”³è¯·Api
+# Ö±½ÓÊ¹ÄÜ¾Í¿ÉÒÔÊ¹ÓÃ£¬²»ĞèÒªÉêÇëApi
 busuanzi_count:
   # count values only if the other configs are false
   enable: false
@@ -591,7 +591,7 @@ busuanzi_count:
 
 # Online contact 
 daovoice: false
-daovoice_app_id: 80b13f12 #è¿™é‡Œå¡«ä½ çš„åˆšæ‰è·å¾—çš„ app_i
+daovoice_app_id: 80b13f12 #ÕâÀïÌîÄãµÄ¸Õ²Å»ñµÃµÄ app_i
 
 # Tencent analytics ID
 # tencent_analytics:
@@ -677,7 +677,7 @@ pace: false
 # pace_theme: pace-theme-center-simple
 pace_theme: pace-theme-minimal
 
-# Canvas-nest åŠ¨æ€èƒŒæ™¯
+# Canvas-nest ¶¯Ì¬±³¾°
 canvas_nest: false
 
 # three_waves
