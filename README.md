@@ -5,7 +5,7 @@
 
 # “喜欢吃苹果的梨” 的 博客
 
-
+![微信打赏](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX.png){:height="50%" width="50%"}
 
 ## 内容
 
