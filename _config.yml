@@ -354,8 +354,8 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 # post-reward 打赏
-alipay: /assets/images/alipay.jpg #qr-code的地址
-wechatpay: /assets/images/wechatpay.jpg #qr-code地址
+alipay: https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payZFB.jpg #qr-code的地址
+wechatpay: https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX.png #qr-code地址
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
