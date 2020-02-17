@@ -3,7 +3,7 @@
 
 # 个人博客
 
-![微信打赏](){:height="50%" width="50%"}
+![微信打赏](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX.png){:height="50%" width="50%"}
 
 ## 内容
 
