@@ -4,8 +4,10 @@ date: 2019-01-15 00:00:00
 published: true
 tags:
 - 学术主页
+- 生活意趣
 categories:
 - 科研技巧
+- 作为测试
 typora-root-url: ../../iseex.github.io
 ---
 
