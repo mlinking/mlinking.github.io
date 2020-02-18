@@ -14,7 +14,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:  https://mlinking.github.io/
+url:  https://mlinking.github.io
 baseurl:
 permalink: /:year-:month/:title/  #pretty
 
@@ -300,12 +300,12 @@ links_layout: inline  # recommended
 links:
   #asdfv1929: https://asdfv1929.github.io/
   #shenzekun: http://shenzekun.cn
-  blanboom: https://blanboom.org
+  青柠学术: https://iseex.github.io
   #wingjay: http://wingjay.com/
-  shuge: https://new.shuge.org/
-  tianyancha: https://www.tianyancha.com/
-  cctv: http://tv.cctv.com/cctv9/?spm=C00367.PTdnYnoIyzbR.0.0
-  conflist: http://www.conferencelist.info/upcoming.html
+  书格: https://new.shuge.org/
+  天眼查: https://www.tianyancha.com/
+  央视纪录频道: http://tv.cctv.com/cctv9/?spm=C00367.PTdnYnoIyzbR.0.0
+  会议列表: http://www.conferencelist.info/upcoming.html
 
 
 # ---------------------------------------------------------------
