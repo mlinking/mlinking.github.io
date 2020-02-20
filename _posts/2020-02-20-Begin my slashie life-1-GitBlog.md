@@ -121,15 +121,13 @@ Markdown会自动给每一个h1~h6标题生成一个锚，其id就是标题内�
 
 ## 拼音声调
 
-在网上浏览网文，有时候会遇到不会发音的字，自然希望有拼音就好了。例如`{魑魅魍魉|Chī Mèi Wǎng Liǎng}`魑魅魍魉{|Chī Mèi Wǎng Liǎng}
+在网上浏览网文，有时候会遇到不会发音的字，自然希望有拼音就好了。例如`{魑魅魍魉|Chī Mèi Wǎng Liǎng}`
 
 如果你用的是搜狗拼音输入法、智能ABC输入法、中文全拼输入法和双拼输入法，一般都会有一个软键盘，用鼠标点右键单击软键盘，就会出现一个对话框，然后找到`拼音字母`一栏，再用鼠标点左键单击`拼音字母`将其打开即可执行。
 
 ![点击小键盘，选择`特殊符号`](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/Pinyin-Sogo.png)
 
 ![里面有很多选择 - 包括`拼音`](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/Pinyin-Sogo2.png)
-
-
 
 # 还是需要个域名吧 - 便于`记忆+纪念` - 万网
 
