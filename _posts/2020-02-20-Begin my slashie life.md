@@ -35,16 +35,16 @@ typora-root-url: ../../mlinking.github.io
 
 # 相关文章汇总
 
-## 1. [基于Github搭建自己的博客的简单粗暴方法](./2020-02-20-B2. egin my slashie life-1-GitBlog.md)
+## 1. [基于Github搭建自己的博客的简单粗暴方法](http://www.kukoo.online/2020-02/Begin-my-slashie-life-1-GitBlog/)
 
-## 2. [搭建自己的云课程](./2020-02-20-Begin my slashie life-2-YunKeCheng.md)
+## 2. [搭建自己的云课程](http://www.kukoo.online/2020-02/Begin-my-slashie-life-2-YunKeCheng/)
 
-## 3. [分发至多平台](./2020-02-20-Begin my slashie life-3-FenFa.md)
+## 3. [分发至多平台](http://www.kukoo.online/2020-02/Begin-my-slashie-life-3-FenFa/)
 
 # 做个广告
 - 我的博客： [喜欢苹果的梨](http://www.kukoo.online/)
 - 网易云课程：在[网易云课堂](https://study.163.com/)搜索`毛豆的布谷鸟`
-- 微信公众号：![喜欢苹果的梨](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/wxGZH/qrcode_for_gh_50CM.jpg)
+- 微信公众号：见下面的标注
 - 简书：还是[喜欢苹果的梨](https://www.jianshu.com/u/7fb684f58e38)
 
 # 觉得有趣，就打个赏吧:blush:
