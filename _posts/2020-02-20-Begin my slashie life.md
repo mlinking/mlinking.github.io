@@ -45,5 +45,12 @@ typora-root-url: ../../mlinking.github.io
 
 ## 3. [分发至多平台](./2020-02-20-Begin my slashie life-3-FenFa.md)
 
-> 先汇总到此！
+# 做个广告
+- 我的博客： [喜欢苹果的梨](http://www.kukoo.online/)
+- 网易云课程：在[网易云课堂](https://study.163.com/)搜索`毛豆的布谷鸟`
+- 微信公众号：![喜欢苹果的梨](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/wxGZH/qrcode_for_gh_50CM.jpg)
+- 简书：还是[喜欢苹果的梨](https://www.jianshu.com/u/7fb684f58e38)
 
+# 觉得有趣，就打个赏吧:blush:
+
+![微信打赏](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX5.png) ![支付宝打赏](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payZFB5.jpg)
