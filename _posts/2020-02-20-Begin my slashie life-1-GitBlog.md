@@ -155,8 +155,7 @@ Markdown会自动给每一个h1~h6标题生成一个锚，其id就是标题内�
 
 ![在`Custom domain`里输入即可](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/Aliyun-DNS-WWW+Git.png)
 
-# 到此为止，搭建自己的Github博客就可以了！怎么样？是不是很`简单粗暴`:question::exclamation:
+# 到此为止，搭建自己的Github博客就可以了！怎么样？是不是很`简单粗暴`？！
 
 # 觉得有趣，就打个赏吧:blush:
 
-![微信打赏](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX5.png) ![支付宝打赏](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payZFB5.jpg)

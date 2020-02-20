@@ -17,10 +17,6 @@ published: true
 typora-root-url: ../../mlinking.github.io
 ---
 
-
-
-[TOC]
-
 # 此博客的缘起
 
 其实，Github构建自己的博客，优酷保存自己的视频，公开课等，是很早以前就知道的（想着不晚于2010年），可以，当时纵览相关的技术，总是不能满足自己的设想（尤其不能忍受平台一完蛋，自己所有的付出都付之东流:scream:）。于是，也就一直苦哈哈地自己制作网站，但是，受限于外网访问的限制，只能自娱自乐。
@@ -52,5 +48,3 @@ typora-root-url: ../../mlinking.github.io
 - 简书：还是[喜欢苹果的梨](https://www.jianshu.com/u/7fb684f58e38)
 
 # 觉得有趣，就打个赏吧:blush:
-
-![微信打赏](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX5.png) ![支付宝打赏](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payZFB5.jpg)
