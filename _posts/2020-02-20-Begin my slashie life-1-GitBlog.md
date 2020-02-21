@@ -133,6 +133,8 @@ Markdown会自动给每一个h1~h6标题生成一个锚，其id就是标题内�
 
 需要自己去Gitalk 网站申请账号，将获得的`ClientID`和`ClientSecret`填上即可。
 
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/Gitalk-OAuth.png)
+
 不过，在Github重新编译后，访问页面遇到了一个小错误：
 
 ![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/Gitalk-Err.png)
