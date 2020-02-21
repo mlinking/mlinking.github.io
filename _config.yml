@@ -346,7 +346,7 @@ post_wordcount:
 wechat_subscriber:
   enabled: true
   qcode: https://images4git-1301301910.cos.ap-beijing.myqcloud.com/wxGZH/qrcode_for_gh_50CM.jpg #/path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
-  description: <font style="font-size:12px">关注公众号，获取更多帮助～</font> #ex. subscribe to my blog by scanning my public wechat account
+  description: <font style="font-size:12px">敬请关注公众号</font> #ex. subscribe to my blog by scanning my public wechat account
 
 # Declare license on posts
 post_copyright:
@@ -355,8 +355,8 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 # post-reward 打赏
-alipay: https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payZFB5.jpg #qr-code的地址
 wechatpay: https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payWX5.png #qr-code地址
+alipay: https://images4git-1301301910.cos.ap-beijing.myqcloud.com/forPay/payZFB5.jpg #qr-code的地址
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -376,7 +376,8 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+# highlight_theme: normal
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
@@ -435,12 +436,12 @@ han: false
 # Support for gitalk comments system.
 # 注意：安装gitalk必须关闭livere，不然会配置出错。
 gitalk:
-  enable: false
-  clientID: 9cc85294515eed2e31fe # 54730ddf7b9420460c03
-  clientSecret: e8491efc431d76ebfe7dbfef3b9d8d97b05e35bd # c05684701b25ff1c19ea0c01ce4d80c125e0707d
-  repo: iseex.github.io # colingpt.github.io
-  owner: iseex # colingpt
-  admin: iseex # colingpt
+  enable: true
+  clientID: d9533be1be5259741b17 # 54730ddf7b9420460c03
+  clientSecret: a4888deb9943b26770fa00a4fbac4d01d340affa # c05684701b25ff1c19ea0c01ce4d80c125e0707d
+  repo: mlinking.github.io # colingpt.github.io
+  owner: mlinking # colingpt
+  admin: mlinking # colingpt
 
 
 
