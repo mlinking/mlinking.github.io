@@ -26,7 +26,7 @@ typora-root-url: ../../mlinking.github.io
 
 ## AI?其实属于`人类智慧`的`数据分析`能力的部分而已，那可有历史喽...
 
-![]https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-WisdombyPascal.png)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-WisdombyPascal.png)
 
 人类追寻智慧的大历史，粗略地划分为三个时期 - 计算机出现以前，当下的AI，和 未来。
 
@@ -46,7 +46,7 @@ typora-root-url: ../../mlinking.github.io
 
 有点像是生产工具在人类的进化中的地位一样：计算机的出现，大大延伸了人类的分析能力 - 大脑的扩展。
 
-![]https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-Tools.png)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-Tools.png)
 
 **遗憾的是，人们也发明和创造了很多致命的武器**
 
@@ -87,7 +87,7 @@ AI has many definitions…
 
 曾经，吴文俊先生在定理证明方面到达过世界之巅
 
-![]https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-WUWenJun.png)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-WUWenJun.png)
 
 ### 过渡阶段 - 知识工程或专家系统 - 构造领域知识
 
@@ -97,7 +97,7 @@ AI has many definitions…
 
 不过，研究成果也还是寥寥。倒是现在也能找到这一方式的例子
 
-![]https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-KE-Siri.png)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-KE-Siri.png)
 
 ### 当下 - 机器学习阶段：深度学习是其中的一个研究子集 - GAN 有些意思了
 
@@ -110,11 +110,11 @@ AI has many definitions…
 
 不过，发展到现在，真是`百舸争流`，各种冠之以ML的算法层出不穷
 
-![]https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-ML+DM.png)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-ML+DM.png)
 
 当下火热的深度学习，其实就是ML的一个研究子集。
 
-![]https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-ML-DL.png)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-ML-DL.png)
 
 ## AI的未来？- Computers construct theories？
 
@@ -122,13 +122,13 @@ AI has many definitions…
 
 
 
-![]https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-10%.png)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-10%.png)
 
 ### 继续AI？- 有点`死循环`感觉！
 
 在追逐智慧的过程中，辅助工具的角色也越来越重要 - 当然，目前为止，人类还是核心：人类不作死，还是会好好的。不过，**生命存在的意义就是探索未知**。那么，追逐更高等级的AI(那就是如何突破`创新`或`无中生有`。那可就是真的向人类智慧接近了)，是必然的目标。为此，更为强大的`智慧型`工具就有越来越高的吸引力，这也是AI的未来。
 
-![]https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-InMovies.png)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-InMovies.png)
 
 不过，Unfortunately, this is a paradox. The more helpful the computers should be, the more intelligent they should be!
 
@@ -138,14 +138,14 @@ AI has many definitions…
 
 Our brain is in charge of creativity, while computers are responsible of efficient computing, possibility evaluation, etc., - carrying out and verification what we human want
 
-![]https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-ICwithBrain.png)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-ICwithBrain.png)
 
-![]https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/Borg.jpg)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/Borg.jpg)
 来自：`https://www.adamtownsend.me/artificial-intelligence-who-goes-into-the-borg-first/`
 
 ## 现在可以上张大图了 - 其中的那些算法可以自己去找找吧
 
-![]https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-PursuingWisdom.jpg)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-PursuingWisdom.jpg)
 
 
 ## 最后是几本书
