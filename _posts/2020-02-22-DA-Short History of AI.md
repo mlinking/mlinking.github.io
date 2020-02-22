@@ -60,10 +60,7 @@ typora-root-url: ../../mlinking.github.io
 
 > 参看后续的AI部分，不在此展开。
 
-
 ### AI的未来？先看看后面当下的AI阶段吧 - 留到最后
-
-
 
 ## 现在来看看 AI：也是三个时期
 
@@ -119,8 +116,6 @@ AI has many definitions…
 ## AI的未来？- Computers construct theories？
 
 ### 首先，挖掘人自身大脑的潜力？- 没有突破很久了 - 还记得那个10%的段子？
-
-
 
 ![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-10%.png)
 
