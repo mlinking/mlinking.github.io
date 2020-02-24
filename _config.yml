@@ -70,6 +70,8 @@ plugins:
  - jemoji
  - jekyll-sitemap
  - jekyll-feed
+  # 将页面和帖子翻译成多种语言
+ - jekyll-language-plugin
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -87,7 +89,7 @@ keywords: "喜欢苹果的梨"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2020
 
 # icon between year and author @Footer
 authoricon: heart

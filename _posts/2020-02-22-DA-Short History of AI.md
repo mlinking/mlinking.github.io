@@ -1,6 +1,6 @@
 ---
 title: 也谈AI简史
-date: 2020-02-20 03:00:00
+date: 2020-02-22 03:00:00
 categories:
 - 原创
 - 实用技巧
@@ -115,7 +115,7 @@ AI has many definitions…
 
 ## 首先，挖掘人自身大脑的潜力？- 没有突破很久了 - 还记得那个10%的段子？
 
-![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-10%.png)
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-10Percent.png)
 
 ## 继续AI？- 有点`死循环`感觉！
 
@@ -123,13 +123,11 @@ AI has many definitions…
 
 ![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-InMovies.png)
 
-不过，Unfortunately, this is a paradox. The more helpful the computers should be, the more intelligent they should be!
+不过，不幸的是，这就有点悖论的感觉：想要辅助AI研发的计算机越有帮助就需要它具有更高的AI。(Unfortunately, this is a paradox. The more helpful the computers should be, the more intelligent they should be!)
 
 ## 可能人机结合是未来一段时间内的`作死`的但是可行的选择
 
- **Maybe, one trend could be –** **direct brain-computer interaction**
-
-Our brain is in charge of creativity, while computers are responsible of efficient computing, possibility evaluation, etc., - carrying out and verification what we human want
+设想就是：人类的大脑仍然作为创造性的主体，不过，通过人脑与计算机的直接交互，人脑又能有效地和直接地使用计算机强大的处理能力。
 
 ![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/AI-ShortHistory/AI-ICwithBrain.png)
 
