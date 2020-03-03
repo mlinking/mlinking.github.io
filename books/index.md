@@ -1,10 +1,25 @@
 ---
 layout: page
 type: books
-title: ￣ω￣=
+title: 一些有趣的书
 ---
 
-<blockquote class="blockquote-center"><font style="font-size:40px">书读的少了，生命都会变得贫瘠</font></blockquote>
+# 计算机
 
-这个栏目用于向大家推荐一些好书，希望大家喜欢。😍
+## 理论
+
+## 编程
+
+
+# 生活情趣
+
+## 花鸟鱼虫那样的小事
+
+## 阅读
+
+
+
+# 游记
+
+
 
