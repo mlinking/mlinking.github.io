@@ -8,6 +8,8 @@ title: 一些有趣的书
 
 ## 理论
 
+[极简操作系统](AShortOS/SUMMARY.md)
+
 ## 编程
 
 
