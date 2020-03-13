@@ -92,7 +92,7 @@ rss:
 since: 2020
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: globe
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -124,6 +124,7 @@ menu:
   categories: /categories/
   tags: /tags/
   books: /books/
+  writingbooks: /mybooks/
   about: /about/
   #gifts: /gifts/
   #sitemap: /sitemap.xml
@@ -147,6 +148,7 @@ menu_icons:
   sitemap: sitemap
   commonweal: heartbeat
   books: book
+  writingbooks: coffee
   gifts: gift
 
 
@@ -242,7 +244,7 @@ social_icons:
   Twitter: twitter
   Scholar: graduation-cap
   Projects: suitcase
-  简书: heartbeat
+  简书: wpexplorer
   Weibo: weibo
 
 

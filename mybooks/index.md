@@ -1,53 +1,51 @@
 ---
 layout: page
 type: books
-title: 这里保留了自己的书
+title: 一些有趣的书
 ---
 
 # 计算机
 
-## 操作系统
+[极简操作系统](AShortOS/SUMMARY.md)
 
-## 数据库
+[高性能计算概览](HPC/SUMMARY.md)
 
-## 商务视角下的数据分析
+[数据库设计与实现：简单视角](InsideDBMS/SUMMARY.md)
 
-# 写书
+[计算机那点事](AShortCS/SUMMARY.md)
 
-## $LaTeX$ 
+# 数据分析
 
-## Word
+[商务视角下的数据分析概览](DataAnalyticswithBusiness/SUMMARY.md)
 
-# 遐想的遐
+[极简统计学](AShortStatistics/SUMMARY.md)
 
+# 数学
 
-## 悟•`天地人` 和 `宇宙，自然，人文` 
+[数学：原来如此](MathYes/SUMMARY.md)
 
-## 悟•数学
-
-## 悟•商务思维
-
+[工程数学](MathforEngineer/SUMMARY.md)
 
 
+# 人文
+
+[天•地•人 v.s 宇宙•自然•人文](CultureforUS/SUMMARY.md)
+
+
+
+# 写作
+
+[LaTeX](WritingwithLaTeX/SUMMARY.md)
+
+[Markdown](WritingwithMD/SUMMARY.md)
 
 # 生活情趣
 
-## 花鸟鱼虫那样的小事
+[花鸟鱼虫那样的小事](LeisurewithFBNF/SUMMARY.md)
 
-## 阅读
+[阅读之趣](LeisurewithReading/SUMMARY.md)
 
-## 香
-
-## 茶
-
-## 书和书 - 有趣的对撞
-
-
-# 游记
-
-## 10年
-
-
+[旅游之趣](LeisurewithTourism/SUMMARY.md)
 
 
 
