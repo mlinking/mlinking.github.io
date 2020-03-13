@@ -141,13 +141,13 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
-  categories: th
+  categories: th-list
   schedule: calendar
   tags: tags
-  archives: archive
+  archives: university
   sitemap: sitemap
   commonweal: heartbeat
-  books: book
+  books: bookmark
   writingbooks: coffee
   gifts: gift
 
@@ -291,14 +291,14 @@ sidebar:
   offset_float: 0
 
   # Back to top in sidebar
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button
   scrollpercent: true
 
 
 # Blog rolls  友链
-links_title: Links
+links_title: 有趣的网站
 #links_layout: block
 links_layout: inline  # recommended
 links:
