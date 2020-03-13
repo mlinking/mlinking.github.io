@@ -143,6 +143,31 @@ Markdown会自动给每一个h1~h6标题生成一个锚，其id就是标题内�
 
 ![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/Gitalk-Issues.png)
 
+## 图标字体库+添加自己的文件目录
+
+想着改一下自己的博客的那些小图标，大致如下。
+
+### 创建自己的文件目录，并修改`config.yml`中对应的信息
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/FontIcon-Mkdir.png)
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/FontIcon-config.png)
+
+### 前面图中的`coffee` 的图标？原来是`fontawesome`呢！
+
+在 Google 里搜索`KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome`，找到原来是有个专门的网站呢！那些图表位于`assets\lib\font-awesome`。
+
+[图标字体库](`https://fontawesome.dashgame.com/`)
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/FontIcon-website.png)
+
+### 修改博客的中文信息 - `\_data\languages\zh-Hans.yml`
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/FontIcon-zhHans.png)
+
+### 效果
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/FontIcon-WritingBooks.png)
 ## 拼音声调
 
 在网上浏览网文，有时候会遇到不会发音的字，自然希望有拼音就好了。例如`{魑魅魍魉|Chī Mèi Wǎng Liǎng}`
