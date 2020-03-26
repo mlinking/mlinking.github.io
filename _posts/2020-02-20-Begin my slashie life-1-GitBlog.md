@@ -202,7 +202,65 @@ Markdown会自动给每一个h1~h6标题生成一个锚，其id就是标题内�
 
 ![在`Custom domain`里输入即可](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/Aliyun-DNS-WWW+Git.png)
 
-# 到此为止，搭建自己的Github博客就可以了！怎么样？是不是很`简单粗暴`？！
+# 到此为止，搭建自己的Github博客就可以了！怎么样？是不是很`简单粗暴`？！觉得有趣，就打个赏吧:blush:
 
-# 觉得有趣，就打个赏吧:blush:
+# 补充
 
+## 本地调试自己的 GitPages 博客
+
+昨天完成了[自己制作本地的Jupyter Book](http://www.kukoo.online/2020-03/Get-Web-Jupyter-Book/)，看到其实GitPages 也是可以本地调试的。摘记于此备存。
+
+### 1. Ruby 和 Bundle 的安装 - 参看[自己制作本地的Jupyter Book](http://www.kukoo.online/2020-03/Get-Web-Jupyter-Book/)
+
+### 2. 安装 GitPages 包 - 还是要换成本地源
+
+进入本地的Git目录，修改GemFile 文件。
+
+在博客里是有一个 GemFile文件的，里面保留了配置 Git Pages 的信息。
+
+```
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
+#gem 'jekyll-admin', group: :jekyll_plugins
+```
+
+还是要换成国内的源为宜。
+
+```
+#source 'https://rubygems.org'
+source 'http://gems.ruby-china.com/'
+gem 'github-pages', group: :jekyll_plugins
+#gem 'jekyll-admin', group: :jekyll_plugins
+```
+
+### 3. 在 CMD(或Anaconda Prompt)里进入本地Git目录，执行`bundle install`安装和 GitHub Pages 一样的 Jekyll 环境
+
+命令会根据当前目录下的`Gemfile`，安装所需要的所有 ruby 软件包(使其和 GitHub Pages 环境一致), 这样可以方便本地调试博客，以确保它正确无误，然后再提交到 GitHub。
+
+这一步可能出现以下错误：
+
+```
+zlib is missing; necessary for building libxml2
+```
+
+此时安装`zlib1g-dev`软件包即可：
+
+```
+apt install zlib1g-dev
+```
+
+### 4. (可选)更新本地 Jekyll 环境
+
+```
+bundle update
+```
+
+出现问题的时候，或者和 GitHub Pages 出现不一致的时候可以尝试一下
+
+### 5. 执行`bundle exec jekyll serve`
+
+注意等待两分钟左右，根据输出的信息找到可通过浏览器访问的网址（默认是`http://127.0.0.1:4000/`）。成功后即可看见和`https://username.github.io`一样的内容。
+
+### 6. 简单试了下，我的Ruby 版本太高，作罢。以后再试吧 - 一机多Ruby 就可以的。
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Beginmyslashielife/GitPages-WebLocal.png)

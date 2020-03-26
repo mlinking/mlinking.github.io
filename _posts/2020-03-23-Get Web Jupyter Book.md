@@ -199,3 +199,12 @@ $ bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 - [Jupyter Cookbook] 
 - [Jupyter for Data Science] 
 
+# 靠，刚发布，就被别人盗取了！
+
+`https://www.lizenghai.com/archives/59488.html`
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Stolen1.png)
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Stolen2.png)
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Stolen3.png)
