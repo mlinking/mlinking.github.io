@@ -1,5 +1,5 @@
 ---
-title: 生成书的Web版
+title: 使用R BookDown 来写书 - PDF, EPUB和Web版。还是算了吧！
 date: 2020-03-28 00:00:00
 categories:
 - 电子书制作
