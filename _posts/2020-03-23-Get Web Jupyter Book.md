@@ -140,6 +140,58 @@ $ bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 
 ![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/JekyllServeWeb.png)
 
+## 想要换成中文界面？
+
+前面Jupyter Book 给出的样例，界面默认是 英文的 - 例如 "ON THIS PAGE"，"Book Title (Jupyter Book)"等。想要换成中文界面("ON THIS PAGE" $\rightarrow$ "本页目录"；"Book Title (Jupyter Book)" $\rightarrow$ "这本书想试试能否使用Jupytrer Book 编纂R算法书")，就需要修改相应的配置。
+
+### Markdown 文件支持中文是没有问题的 - Unicode
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Chinese-MDOk.png)
+
+其他不做变动，`build` 和 `jekyll serve`生成的HTML的中文是没有问题的。
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Chinese-MDOkHTML.png)
+
+但是，界面信息还是英文："YOUR BOOK NAME", "ON THIS PAGE"等。这就需要修改 `_config.yml` 和 `_data`目录下的`toc.yml`。
+
+### 修改`_data`目录下的`toc.yml` - 书籍目录
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Chinese-TOC.png)
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Chinese-TOCHTMLOk.png)
+
+### 修改 `_config.yml` - 但是，`jupyter book build`时有错误
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Chinese-config-BookTitle.png)
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Chinese-config-OnThisPage.png)
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Chinese-config-gbkError.png)
+
+### 修改 `_config.yml` 后 `Build`出现错误，还要修改`jupyter_book`的源代码 - `utils.py`
+
+查了下，是Jupyter Book的 Python代码问题：
+
+- 找到`C:\ProgramData\Anaconda3\Lib\site-packages\jupyter_book`目录下的`utils.py`
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Chinese-config-gbk-utils.png)
+
+- 然后在对应行的`open()`函数中添加`b`即可
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Chinese-config-gbk-utils+b.png)
+
+### 之后，`build` 和 `bundle exec jelyll serve` 都顺利通过了
+
+![](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/JupyterBook/Chinese-OK.png)
+
+## 通过修改`_config.yml`和`toc.yml`可以完成很多配置 - 以后再琢磨吧
+
+### 组织书籍的章节 - `toc.yml`
+
+### 替换相应的图标、logo等 - `_config.yml`
+
+### 执行HTML中嵌入代码的的配置 - `_config.yml`
+
 # 其他
 
 ## 遗留的需求
