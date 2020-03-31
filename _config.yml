@@ -123,6 +123,7 @@ menu:
   archives: /archives/
   categories: /categories/
   tags: /tags/
+  classes: /classes/
   books: /books/
   writingbooks: /mybooks/
   about: /about/
@@ -136,6 +137,8 @@ menu:
 #   Map a menu item to a specific FontAwesome icon name.
 #   Key is the name of menu item and value is the name of FontAwesome icon. Key is case-senstive.
 #   When an question mask icon presenting up means that the item has no mapping icon.
+
+# https://fontawesome.com/v4.7.0/icons/
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
@@ -144,6 +147,7 @@ menu_icons:
   categories: th-list
   schedule: calendar
   tags: tags
+  classes: academic
   archives: university
   sitemap: sitemap
   commonweal: heartbeat
