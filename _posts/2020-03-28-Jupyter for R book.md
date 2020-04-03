@@ -174,7 +174,49 @@ summary(iris)
 
 ### 问题1: 前面的 `open(xxx,'rb')`解决中文问题
 
-### 问题2: 就是前面指出的"Jupyter Book不能使用R Kernel"
+### 问题2: 就是前面指出的"Jupyter Book不能使用R Kernel" - 似乎只能建一个Docker？
+
+还是有些不甘心，今天再找了下。确实够呛：别人也注意到了这个问题，但是没有解决。
+
+1. [交互式Jupyter R筆記本與Binder]([https://www.weiyeying.com/ask/交互式jupyter-r笔记本与binder)
+
+我創建了這個相當簡單的Jupyter Notebook https://github.com/the42/jupyter_golf 使用R內核，基於 [https://github.com/jupyter/搬運工，堆/樹/主/數據科學筆記本](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook)。
+
+當我嘗試使用[活頁夾](http://www.mybinder.org/)打開筆記本時，我只能獲得Jupyter的Python風格。有沒有辦法，使用Binder或其他服務，使這個筆記本能夠以最小的努力在網上進行交互？
+
+Ans: 暫時沒有最佳答案 [*也就是我这里的问题*]
+
+2. [Jupyter筆記本和git](https://www.weiyeying.com/ask/jupyter笔记本和git)
+
+我正在尋找使用Jupyter筆記本和git的任何直接解決方案，因為.ipynb文件上的緩存數據使得難以閱讀差異。
+
+有沒有人知道任何獨立的替代品而不是托管服務器？
+
+Ans: 一種選擇是從.ipynb文件中剝離輸出。然後git diff只跟蹤單元格數據。剝離輸出Jupyter Notebook的一個軟件包是 [nbstripout](https://github.com/kynan/nbstripout) 。
+
+3. [在團隊中共享Jupyter筆記本](https://www.weiyeying.com/ask/在团队中共享jupyter笔记本)
+
+我想建立一個可以通過以下方式支持數據科學團隊的服務器：成為存儲，版本控制，共享以及可能還執行Jupyter筆記本的中心點。
+
+一些所需的屬性：
+
+a. 不同的用戶可以訪問服務器並打開和執行由他們或其他團隊成員存儲的筆記本。這裏有趣的問題是，如果用戶X在用戶Y編寫的筆記本中執行單元格，那將是什麽行為。我猜筆記本應該 *NOT* 更改：
+b. 解決方案應該是自托管的。
+c. 筆記本應存儲在服務器上或Google驅動器上，或存儲在owncloud的自托管實例上。
+d. （Bonus）筆記本將受到git版本控制（git可能是自托管的。不能綁定到GitHub或類似的東西）。
+
+我查看了 [JupyterHub](https://github.com/jupyterhub) 和[粘合劑](https://www.weiyeying.com/ask/“https://github.com/binder-project/binder"rel)。對於前者，我不明白如何允許跨用戶訪問。後者似乎只支持GitHub作為筆記本電腦的存儲。
+
+您對這兩種解決方案都有經驗嗎？
+
+Ans: Airbnb recently open sourced their internal data science knowledge repository: https://github.com/airbnb/knowledge-repo
+
+從它的自述文件來看，它似乎可以松散地適合您的用例：
+
+> 知識庫項目專註於促進  在數據科學家和其他技術角色之間分享知識  使用在這些職業中有意義的數據格式和工具。它  提供各種數據存儲（以及管理它們的實用程序）  “知識帖子”，特別關註筆記本電腦（R Markdown  和Jupyter/iPython Notebook）更好地促進可重復性  研究
+
+還有一個[博客文章](https://medium.com/airbnb-engineering/scaling-knowledge-at-airbnb-875d73eff091#.x9argsxas)評論其動機。
+
 
 # Jupyter Notebook 甚至支持同一个ipynb文件有不同语言的代码运行 - `rpy2` - 备存
 
