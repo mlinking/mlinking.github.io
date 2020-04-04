@@ -9,7 +9,7 @@ tags:
 - Binder
 - Cocalc
 - sagemath
-published: false
+published: true
 typora-root-url: ../../mlinking.github.io
 ---
 
@@ -134,7 +134,7 @@ C:\WINDOWS\system32>jupyter notebook --allow-root --port=5486
      or http://127.0.0.1:5486/?token=daec549df6f4b10e87033fd57411cd69f1f032024321642a
 ```
 
-![ServeUrIpynb](/../imagesforCOSLater/Skills/Jupyter/ServeUrIpynb.jpg)
+![ServeUrIpynb](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Skills/Jupyter/ServeUrIpynb.jpg)
 
 但是，默认的路径是`system32`，自然希望直接定位到我的ipynb项目目录。
 
@@ -142,15 +142,15 @@ C:\WINDOWS\system32>jupyter notebook --allow-root --port=5486
 
 打开配置文件jupyter_notebook_config.py，全文搜索`notebook_dir`，找到后填入自己的工作路径并保存。（注意：工作路径不能出现中文，否则无法打开Jupyter Notebook）
 
-![ServeUrIpynb-ChangeDirConf](/../imagesforCOSLater/Skills/Jupyter/ServeUrIpynb-ChangeDirConf.png)
+![ServeUrIpynb-ChangeDirConf](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Skills/Jupyter/ServeUrIpynb-ChangeDirConf.png)
 
 打开新的Anaconda Prompt，运行 `jupyter notebook --allow-root --port=5486`。再出现的目录就是指定的了。
 
-![ServeUrIpynb-ChangeDir](/../imagesforCOSLater/Skills/Jupyter/ServeUrIpynb-ChangeDir.png)
+![ServeUrIpynb-ChangeDir](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Skills/Jupyter/ServeUrIpynb-ChangeDir.png)
 
 > 据说可以只改快捷方式的属性：“目标”那里的 “%USERPROFILE%” 删除，“起始位置”改成你希望的路径。
 >
-> ![ServeUrIpynb-ChangeDirHomepath](/../imagesforCOSLater/Skills/Jupyter/ServeUrIpynb-ChangeDirHomepath.png)
+> ![ServeUrIpynb-ChangeDirHomepath](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Skills/Jupyter/ServeUrIpynb-ChangeDirHomepath.png)
 >
 > - 在不改 jupyter_notebook_config.py 文件的情况下，仅改变这两个地方，并不起任何作用。
 >
@@ -160,7 +160,7 @@ C:\WINDOWS\system32>jupyter notebook --allow-root --port=5486
 >
 > - **快捷键**：`Win + PrintScreen`：使用 `Win + PrintScreen` 快捷键截取全屏画面后，系统会将截图自动保存到「C:\Users\XXX\Pictures\屏幕截图」（XXX 为用户名称）目录下，省下了保存图片文件的操作步骤。
 >   - 我的实践中，在使用两个屏幕。`Win + PrintScreen`竟然将它们截到了一起。
->   - ![Capture2Scrns](/../imagesforCOSLater/Skills/Jupyter/Capture2Scrns.png)
+>   - ![Capture2Scrns](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/Skills/Jupyter/Capture2Scrns.png)
 >
 > - **快捷键**：`Win + G`：在 Windows 10 系统中，内置了一项针对游戏的特色截图工具，通过 `Win + G` 唤起简洁的工具条。这个截图工具可以实现在游戏中截取画面，也可以截取其他软件界面。截取的图片会保存在「C:\Users\XXX\Videos\Captures」（XXX 为用户名称）这个文件夹里。
 
@@ -175,4 +175,3 @@ C:\WINDOWS\system32>jupyter notebook --allow-root --port=5486
 ## SSH 访问
 
 若上面输入网址无法进入，提示可能是防火墙问题，此时可以通过SSH访问远程服务器， 在Windows下通过xshell等工具访问远程服务器，可在会话中设置，选择属性-ssh-隧道。
-
