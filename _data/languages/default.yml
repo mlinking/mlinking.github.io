@@ -6,6 +6,7 @@ title:
   archives: Archives
   categories: Categories
   tags: Tags
+  classes: Classes
   about: About
 
 author: Author
@@ -20,6 +21,7 @@ menu:
   schedule: Schedule
   sitemap: Sitemap
   commonweal: Commonweal 404
+  classes: Classes
 
 sidebar:
   overview: Overview

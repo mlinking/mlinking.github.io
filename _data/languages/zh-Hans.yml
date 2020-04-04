@@ -6,6 +6,7 @@ title:
   archives: 归档
   categories: 分类
   tags: 标签
+  classes: 课程
   about: 关于
 
 author: 博主
@@ -23,6 +24,7 @@ menu:
   books: 来读书吧
   writingbooks: 写本书吧
   gifts: 福利
+  classes: 课程
 
 sidebar:
   overview: 站点概览
