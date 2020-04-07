@@ -30,7 +30,7 @@ typora-root-url: ../../mlinking.github.io
 
 ![Engine](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/IJustWantToKnow/CarEngine/Engine.gif)
 
-2. 离合器的作用就是将转动轴的旋转传递到
+2. 离合器的作用就是将转动轴的旋转传递到车轮，驱动汽车前行。不过，发动机转速和扭矩都要调整 - 主要经过离合器，变速箱和差速器。
 
 ![clutch](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/IJustWantToKnow/CarEngine/clutch.jpg)
 
@@ -39,6 +39,15 @@ typora-root-url: ../../mlinking.github.io
 3. 变速箱作用在于(1) 改变扭矩和转速(用在不同的情况 - 爬坡需要大扭矩，而高速行驶不需要大扭矩)，(2) 以改变了的旋转来驱动车轮旋转。
 
 ![transmission](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/IJustWantToKnow/CarEngine/transmission.jpg)
+
+![Transmission](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/IJustWantToKnow/CarEngine/Transmission.gif)
+
+跟前面的离合器结合，就能了解为什么变速要踩离合器了。
+
+有几个视频可以进一步观看：
+
+- [3D动画演示手动变速箱工作原理](https://www.bilibili.com/video/av18956967/)
+- [序列式变速箱的动画演示](https://www.bilibili.com/video/av16257572/)
 
 4. 只是变速箱来改变转速是不够的，还有所谓的差速器等
 
@@ -63,3 +72,5 @@ typora-root-url: ../../mlinking.github.io
 [1] `http://www.chinadaily.com.cn/interface/zaker/1142842/2018-08-23/cd_36810761.html`
 
 [2] `https://zhuanlan.zhihu.com/p/54023696`
+
+[3] `https://www.sohu.com/a/240361456_157472`
