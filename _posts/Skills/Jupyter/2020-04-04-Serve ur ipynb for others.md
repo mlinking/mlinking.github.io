@@ -84,6 +84,8 @@ Cocalc有免费版和付费版。 免费版没有额外的网络连接, 也就�
 $ jupyter notebook --generate-config
 ```
 
+该文件保存在`C:\用户\xxx`目录`.jupyter`下。
+
 ### 生成密码
 
 ```{Python}
