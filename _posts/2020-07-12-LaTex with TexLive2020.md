@@ -1,5 +1,5 @@
 ---
-title: 有趣的第一次理财体验
+title: TexLive 2020 啦
 date: 2020-07-05 00:00:00
 categories:
 - LaTeX
@@ -9,8 +9,6 @@ tags:
 published: true
 typora-root-url: ../../mlinking.github.io
 ---
-
-# TexLive 2020 啦
 
 近期发现自己的笔记本系统盘空间不够啦，Windows 的东西不好挪移，比如 ProgramData，Roaming 等，只能看看安装的软件有没有很大的，一卸载就能立竿见影。发现，Texlive 2019太大了 - 近乎20GB！那就是它了！
 
