@@ -1,6 +1,6 @@
 ---
 title: TexLive 2020 啦
-date: 2020-07-05 00:00:00
+date: 2020-07-12 00:00:00
 categories:
 - LaTeX
 tags:
