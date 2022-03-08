@@ -30,9 +30,9 @@ typora-root-url: ../../mlinking.github.io
 
 而围绕商务，还是一个很有意义的串接相关数据分析方法的线索，此所以在建设此课程是本人冠之以"商务视角下"的原因。
 
-## Part I: 商务思维篇
+## Part I: 商务视角篇
 
-### 商务思维概述 – 盈利是核心
+### 商务视角概述 – 盈利是核心
 
 商务思维？推荐"褚时健传"读一读，可以通过这本书体会下商务思维并不复杂(了解下这位老人的传奇经历也是会有收获的)。
 
@@ -49,7 +49,24 @@ typora-root-url: ../../mlinking.github.io
 >
 > ![MissingCHUShiJian](https://images4git-1301301910.cos.ap-beijing.myqcloud.com/DataAnalyticswithBusiness/MissingCHUShiJian.png)
 
-## Part II: 数据分析的历史，工具和统计学
+围绕商务，有几个重要的
+- 三链分析：生产链，客户链和
+- 三张表：资产负债，利润表和现金流量表
+
+### 盈利如何评估
+
+很多指标可用于评估商务的盈利性，此处只是简单地技术：
+- 时间价值
+- 投资与产出的量与时
+- 销售平衡点 
+
+### 盈利如何保障
+
+- 战略
+
+
+
+## Part II: 数据分析的历史，优化论和统计学
 
 ### 数据分析的历史 – 追寻智慧
 
@@ -81,7 +98,7 @@ typora-root-url: ../../mlinking.github.io
 >
 > 再就是可以扩展看看 "计量经济学"
 
-## Part III: 数据分析 
+## Part III: 数据分析概览 
 
 ### 基础篇
 - 基础思想 - 距离，空间 和 隐含量 (EM方法)
