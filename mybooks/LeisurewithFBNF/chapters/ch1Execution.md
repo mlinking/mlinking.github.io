@@ -5,9 +5,8 @@ categories:
 - Operating System
 tags:
 - Operating System
-published: false
+published: true
 ---
 
 # Introduction
-
 

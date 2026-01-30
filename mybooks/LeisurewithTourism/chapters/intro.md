@@ -28,7 +28,7 @@ published: true
 
 所谓的多道程序/进程(Stored Programs)，和并发运行(Concurent Execution)，单纯看书面的定义，有些雾里看花。在这里先给出一个现在使用Windows 操作系统都熟悉的场景，即，**似乎计算机“同时”在运行多个程序**：你在听着从计算机中传来的好定的音乐，同时，你编好的程序正在完成者复杂的运算，而在程序运行的同时你想着编辑下要发表的论文，甚至还可以在看个技术视频。图 0‑1就是本人使用笔记本的一个截图，能看出来有很多在运行的程序。
 
-![似乎计算机“同时”在运行多个程序](D:\MyGitbook\imagesforCOSLater\AShortOS\intro-SnapshotofManyP.png)
+![似乎计算机“同时”在运行多个程序](./../imgs/intro-SnapshotofManyP.png)
 
 这背后的支撑概念就是多道程序/进程和并发运行。所谓多道程序/进程是指在内存中可以存放多个程序的代码(或片段)，以及程序执行所需要的资源信息。而并发运行，是在多道程序/进程的基础上，这些程序能够在一个CPU上快速切换，看上去它们是在同时运行。
 
@@ -58,9 +58,9 @@ published: true
 
 在现代操作系统中，进程间的协作还是比较常见的，如IPC(Inter-Process Communication)机制。即便是在SPOOLING也需要这样的技术，即SPOOLING Daemon 程序需要借助暂存接受到的来自多个应用的打印任务，然后将它们逐个打印。这里的“暂存”可算是Broker资源，其使用需要遵循一定的规则。
 
-![](D:\MyGitbook\imagesforCOSLater\AShortOS\OS-DataInconsistency1.png)
+![](./../imgs/OS-DataInconsistency1.png)
 
-![程序协同带来的数据不一致性风险](D:\MyGitbook\imagesforCOSLater\AShortOS\OS-DataInconsistency2.png)
+![程序协同带来的数据不一致性风险](./../../../MyGitbook/myMD/typora-user-images/OS-DataInconsistency2.png)
 
 还有一个例子就是银行系统中的共享账号这样的Broker资源。上图给出了使用这种资源的一种风险情况，图中有两个角色 – Son 和 Papa，他们共享一个银行账号((a)中标注了100)。(b) 表示某一时刻Son和Papa都想向这一账号存钱，为此，他们需要读取当前账号中的钱数到他们各自的空间；(c) 和(d)展示了Son 完成存钱50并写回账号的过程，更新后的账号钱数是150；(e)和(f)展示了Papa存100元进账号的过程，这一过程是在Son操作之后完成的，所以，账号的钱数是200元。可是，Son 和 Papa一共存了150，共享账号正确的结果应该是250,。这就是数据不一致性的风险。
 
@@ -70,7 +70,7 @@ published: true
 
 5. 死锁
 
-![资源分配不当就会造成所谓的死锁现象](D:\MyGitbook\imagesforCOSLater\AShortOS\OS-Deadlock.png)
+![资源分配不当就会造成所谓的死锁现象](./../imgs/OS-Deadlock.png)
 
 
 

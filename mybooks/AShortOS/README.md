@@ -22,7 +22,7 @@ published: true
 
 其中**黑体**标注的是自觉还是非常满意的；*斜体*标注是花了功夫但觉得鸡肋的；而操作系统，则是太过经典，诸多专家和学者贡献了好几本书籍。下图是其中的比较著名的几本。不过，个人觉得**将书读薄**了也比较有趣，是为此系列小文的初衷。是为记！
 
-![OS-Books](D:\MyGitbook\imagesforCOSLater\AShortOS\OS-Books.png)
+![OS-Books](./imgs/OS-Books-1769783346400-1.png)
 
 # 极简操作系统
 

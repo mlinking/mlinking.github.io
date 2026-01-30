@@ -1,5 +1,5 @@
 ---
-title: Wind的Linux 程序
+title: Windows 里的Linux 程序
 date: 2020-03-05 03:00:00
 categories:
 - Operating System
@@ -8,7 +8,5 @@ tags:
 published: true
 ---
 
-# GUI
-
-测试
+# Introduction
 
