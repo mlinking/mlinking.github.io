@@ -6,7 +6,7 @@ title: 一些有趣的书
 
 # 计算机
 
-[极简操作系统](AShortOS/index.html)
+[极简操作系统](AShortOS/index.md)
 
 [高性能计算概览](HPC/index.md)
 
